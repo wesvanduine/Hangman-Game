@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HangMan</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h3>Hangman Game</h3>
+    </header>
+    <div class="container">
+        <div class="column1">
+            <img id="hm-image" src="assets/images/hangman_1.png">
+        </div><!-- End of column1 -->
+        <div class="column2">
+        	<h2 id="wordDisplay">_ _ _ G _ _ S _ T</h2>
+        	<h2 style="text-decoration: underline;">Letters Guesed:</h2>
+        	<h2 id="guessed"> B C H R E I</h2>
+        	<h2>Guesses Remaining: <span id="remaining"></span></h2>
+        	<h2>Wins: <span id="wins">0</span></h2>
+        	<h3>Losses: <span id="losses">0</span></h3>
+        </div><!-- end of column2 -->
+        <h1 id="play">GO AHEAD AND GUESS!</h1>
+    </div><!-- End of Conatiner -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
